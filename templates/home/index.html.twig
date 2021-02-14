@@ -13,8 +13,8 @@
 
     DOCUMENTATION :
     <ul>
-        <li>"{{ app.request.uri | trim('/') }}{{ path('api_weather_geolocation') }}" :
-            permet de récupérer les conditions météos de la ville de l'utilisateur.</li>
+        {# <li>"{{ app.request.uri | trim('/') }}{{ path('api_weather_geolocation') }}" :
+            permet de récupérer les conditions météos de la ville de l'utilisateur.</li> #}
         <li>"{{ app.request.uri | trim('/') }}{{ path('api_weather_city') }}/{city}" :
             permet de récupérer les conditions météos de la ville envoyé dans le paramètre city
             (ex: {{ app.request.uri | trim('/') }}{{ path('api_weather_city') }}/Paris).</li>
